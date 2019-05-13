@@ -1,0 +1,162 @@
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:700,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Quicksand&amp;subset=latin-ext);
+
+
+body {
+  background-color: #fff;
+  color: #666;
+  font-family: 'Open Sans', arial, sans-serif;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  display: block;
+  height: 140px;
+  border-bottom: 5px solid #000;
+  margin-bottom: 30px;}
+
+
+h1 {
+  font-weight: normal;
+  margin: 28px 0 0 0;
+  float: left;
+  width: 230px;
+  white-space: nowrap;
+  overflow: hidden;}
+
+h2 {
+  font-size: 2.4em;
+  /* margin: 0.7em 0 1.7em 0; */
+  padding: 0;
+  color: #000;
+
+  line-height: 1em;
+  letter-spacing: -.06em;}
+
+  h3{
+    font-size:2em;
+  }
+
+h4 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #3fbb8a; 
+  font-family: oswald, arial, sans-serif;}
+
+nav {
+  font-family: oswald, arial, sans-serif;
+  float: right; 
+  width: 600px;
+  padding-top: 30px;
+  font-size: 1.4em;
+  text-align: right;
+  text-transform: uppercase;}
+nav a {
+  padding-left: 30px;}
+nav a:hover, a.current {
+  /* color: #d71a00; */
+  color: rgb(190, 60, 60);
+
+}
+
+
+a {text-decoration: none; color: #000;}
+
+.flexBox {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro{
+  display:flex;
+  justify-content: space-around;
+}
+
+.articleContainer{
+  flex:2;
+  padding: 50px;
+}
+
+.pictureContainer{
+  flex:1;
+}
+
+.meself{
+
+  width: 225px;
+  height: 225px;
+  background-image: url(./img/IMG_7321.jpg);
+  background-size: cover;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  background-position: -15px -50px;
+}
+.event{
+  margin: 40px 0;
+}
+
+.third, .event {
+  width: 320px;
+  float: left;
+  text-align: center;}
+
+.event p {border-right: 1px solid #999; }
+#content .event:last-child p {border-right: none;}
+
+.third p {
+  padding: 0 20px 0 20px;
+  margin: 40px 0 20px 0;
+  text-align: left;
+  line-height: 1.4em;}
+
+.intro p {
+  display: flex;
+  align-content: space-around;
+  margin: 0 0 0 0;
+  padding: 0 20px 20px 0;
+}
+
+
+.half {
+  padding-top: 60px;
+  width: 480px;
+  float: left;
+  text-align: center;}
+
+#vote {padding-top: 20px;}
+p#selector {margin-top: -40px;}
+
+form {
+  margin: 0 0 0 90px;
+  width: 300px;}
+label, input {
+  display: inline-block;}
+label {
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  text-transform: uppercase;}
+input {
+  border: none;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+  font-size: 1em;
+  line-height: 1em;
+  width: 280px;
+  padding: 6px 10px 6px 10px;
+}
+input[type=submit] {
+  background-color: #1fb684;
+  color: #fff;
+  font-weight: bold;
+  width: 8em;
+  padding: 8px 20px 8px 20px;
+  margin-top: 10px;
+  text-transform: uppercase;}
+input[type=submit]:hover {
+  background-color: #000;
+  cursor: pointer;}
+

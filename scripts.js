@@ -11,3 +11,4 @@ $('nav a').on('click', function(e) {                 // User clicks nav link
   $('#content').load(url + ' #container').hide().fadeIn('slow'); // New content
   console.log($('#content').load(url + ' #container'));
 });
+

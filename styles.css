@@ -69,6 +69,19 @@ nav a:hover, a.current {
 
 a {text-decoration: none; color: #000;}
 
+.myExperience p{
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.myExperience ul{
+  margin-left: 20px;
+
+}
+.myExperience ul li{
+  margin-left:-20px;
+  margin: 5px 0;
+}
+
 .flexBox {
   display:flex;
   align-items: center;

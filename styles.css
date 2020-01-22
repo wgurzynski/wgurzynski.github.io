@@ -69,6 +69,22 @@ nav a:hover, a.current {
 
 a {text-decoration: none; color: #000;}
 
+.angular {
+  color: #b52e31;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjDE13MH9jhCagcixFHvCnvq1sV09ZdgkYTLu6YcGdTJbrVmH4wQ&s");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 0%;
+  padding-left:45px;
+}
+
+.angularIcon {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjDE13MH9jhCagcixFHvCnvq1sV09ZdgkYTLu6YcGdTJbrVmH4wQ&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 120%
+}
+
 .myExperience p{
   margin-left: 20px;
   margin-bottom: 15px;
@@ -97,6 +113,11 @@ a {text-decoration: none; color: #000;}
   text-align: center;
   color:#1fb684;
   font-weight: bold;
+}
+
+.meSelfDetails{
+  font-size:1.25em;
+  font-weight: normal;
 }
 
 .green{
